@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viagem para Foz do Iguaçu</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f2f6f4;color:#263832;line-height:1.7}
+header{background:linear-gradient(135deg,#063c35,#168878);color:white;text-align:center;padding:65px 20px}
+header h1{font-size:clamp(30px,5vw,46px);margin-bottom:12px}
+nav{background:white;padding:16px;text-align:center;position:sticky;top:0}
+nav a{color:#087568;text-decoration:none;font-weight:bold;margin:0 12px}
+main{max-width:1000px;margin:auto;padding:25px 18px}
+section{background:white;padding:25px;border-radius:14px;margin-bottom:25px;scroll-margin-top:75px}
+h2{color:#087568;margin-bottom:15px}
+h3{color:#087568;margin:18px 0 8px}
+.hero{width:100%;height:330px;object-fit:cover;border-radius:12px;margin-bottom:15px}
+.info{background:#e7f4ee;padding:18px;border-radius:10px;margin:15px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.card{border:1px solid #dce9e2;border-radius:12px;overflow:hidden;background:#f8fbf9}
+.card img{width:100%;height:180px;object-fit:cover}
+.card div{padding:15px}
+table{width:100%;border-collapse:collapse;margin:15px 0}
+th,td{padding:12px;text-align:left;border-bottom:1px solid #ddd}
+th{background:#087568;color:white}
+.total{font-weight:bold;background:#e7f4ee}
+footer{background:#063c35;color:white;text-align:center;padding:25px}
+.small{font-size:13px;color:#65766d}
+@media(max-width:600px){section{padding:16px}.hero{height:220px}nav a{display:inline-block;margin:5px}}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Foz do Iguaçu</h1>
+<p>Uma viagem pelas maravilhas naturais do Paraná</p>
+</header>
+
+<nav>
+<a href="#destino">Destino</a>
+<a href="#viagem">Viagem</a>
+<a href="#custos">Custos</a>
+<a href="#pontos">Pontos turísticos</a>
+</nav>
+
+<main>
+
+<section id="destino">
+<h2>1. Destino, localização e motivo</h2>
+<img class="hero" src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1200&q=85" alt="Cachoeira em meio à natureza">
+<p><strong>Destino:</strong> Foz do Iguaçu, Paraná.</p>
+<p><strong>Localização:</strong> região Oeste do Paraná, na fronteira entre Brasil, Argentina e Paraguai.</p>
+<p><strong>Por que escolhemos:</strong> a cidade é famosa pelas Cataratas do Iguaçu, suas paisagens naturais e suas atrações turísticas. É um destino ideal para conhecer a natureza e aprender sobre a preservação ambiental.</p>
+</section>
+
+<section id="viagem">
+<h2>2. Data e duração da viagem</h2>
+<div class="info">
+<p><strong>Saída:</strong> 13 de novembro de 2026.</p>
+<p><strong>Retorno:</strong> 15 de novembro de 2026.</p>
+<p><strong>Duração:</strong> 3 dias e 2 noites.</p>
+</div>
+
+<h2>3. Transporte</h2>
+<p>A viagem será realizada de ônibus, saindo de Guarapuava com destino a Foz do Iguaçu.</p>
+<table>
+<tr><th>Descrição</th><th>Valor estimado</th></tr>
+<tr><td>Passagem de ida</td><td>R$ 150,00</td></tr>
+<tr><td>Passagem de volta</td><td>R$ 150,00</td></tr>
+<tr class="total"><td>Total</td><td>R$ 300,00</td></tr>
+</table>
+</section>
+
+<section>
+<h2>4. Hospedagem</h2>
+<p><strong>Hotel:</strong> Águas do Iguaçu Hotel Centro, na região central da cidade.</p>
+<table>
+<tr><th>Descrição</th><th>Valor</th></tr>
+<tr><td>Diária estimada</td><td>R$ 250,00</td></tr>
+<tr><td>Quantidade de diárias</td><td>2</td></tr>
+<tr class="total"><td>Total da hospedagem</td><td>R$ 500,00</td></tr>
+</table>
+
+<h2>5. Alimentação</h2>
+<table>
+<tr><th>Descrição</th><th>Valor</th></tr>
+<tr><td>Alimentação por dia</td><td>R$ 100,00</td></tr>
+<tr><td>Quantidade de dias</td><td>3</td></tr>
+<tr class="total"><td>Total da alimentação</td><td>R$ 300,00</td></tr>
+</table>
+</section>
+
+<section id="pontos">
+<h2>6. Pontos turísticos</h2>
+
+<div class="cards">
+<article class="card">
+<img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=700&q=80" alt="Cachoeira">
+<div>
+<h3>Cataratas do Iguaçu</h3>
+<p><strong>Onde:</strong> Parque Nacional do Iguaçu, Rodovia das Cataratas.</p>
+<p><strong>Entrada estimada:</strong> R$ 121,00.</p>
+<p>Conjunto de quedas-d'água conhecido mundialmente pela beleza natural.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=700&q=80" alt="Ave colorida">
+<div>
+<h3>Parque das Aves</h3>
+<p><strong>Onde:</strong> Rodovia das Cataratas, próximo ao Parque Nacional.</p>
+<p><strong>Entrada estimada:</strong> R$ 110,00.</p>
+<p>Espaço dedicado à conservação de aves da Mata Atlântica.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=700&q=80" alt="Estrutura de engenharia">
+<div>
+<h3>Itaipu Binacional</h3>
+<p><strong>Onde:</strong> Avenida Tancredo Neves, em Foz do Iguaçu.</p>
+<p><strong>Entrada estimada:</strong> R$ 50,00.</p>
+<p>Usina hidrelétrica conhecida por sua importância na produção de energia.</p>
+</div>
+</article>
+</div>
+</section>
+
+<section id="custos">
+<h2>Orçamento total por pessoa</h2>
+<table>
+<tr><th>Despesa</th><th>Valor</th></tr>
+<tr><td>Transporte ida e volta</td><td>R$ 300,00</td></tr>
+<tr><td>Hospedagem</td><td>R$ 500,00</td></tr>
+<tr><td>Alimentação</td><td>R$ 300,00</td></tr>
+<tr><td>Entradas turísticas</td><td>R$ 281,00</td></tr>
+<tr class="total"><td>TOTAL</td><td>R$ 1.381,00</td></tr>
+</table>
+<p class="small">Valores estimados para o trabalho escolar. Os preços reais podem variar.</p>
+</section>
+
+<section>
+<h2>Conclusão</h2>
+<p>Foz do Iguaçu é um destino que reúne natureza, turismo e tecnologia. As Cataratas do Iguaçu, o Parque das Aves e Itaipu são atrações que tornam a cidade especial e oferecem experiências de aprendizado e lazer.</p>
+</section>
+
+</main>
+
+<footer>
+<p>Trabalho escolar — Turismo no Paraná</p>
+<p>Destino: Foz do Iguaçu</p>
+</footer>
+
+</body>
+</html>
